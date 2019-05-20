@@ -1,10 +1,10 @@
-<?php
+<!-- <?php
 require_once("./motores/interno/defs.php");
 session_start();
 $hayUsuario = (isset($_SESSION['Usuario']) && $_SESSION['Usuario']['rol'] != 't');
 if (!$hayUsuario) {
 	$_SESSION['Usuario'] = array("rol" => "t", "publica" => "invalida");
-	?>
+	?> -->
 <!DOCTYPE html>
 <html>
 	<head>
